@@ -1,17 +1,17 @@
-## 1. Clone the repository: Use Git to clone the repository to your local machine:
+1. Clone the repository: Use Git to clone the repository to your local machine:
 
-## 2. git clone https://github.com/snu0929/instagram-story.git
+2. git clone https://github.com/snu0929/instagram-story.git
 
-## 3. Navigate to the project directory: Change your current directory to the project directory: cd instagram-story
+3. Navigate to the project directory: Change your current directory to the project directory: cd instagram-story
 
-## Install dependencies: Install the required dependencies using npm (Node Package Manager):
+Install dependencies: Install the required dependencies using npm (Node Package Manager):
 npm install or yarn install
 
 4 Run the application in development mode: Start the development server by running the following command:
 
  npm run dev
 
-## 5 Access the application: Open a web browser and navigate to http://localhost:3000 to access the locally running instance of the application.
+ 5 Access the application: Open a web browser and navigate to http://localhost:3000 to access the locally running instance of the application.
 
 ## Design Choices
 React.js: Chosen for its component-based architecture and declarative syntax, making it well-suited for building interactive user interfaces.
