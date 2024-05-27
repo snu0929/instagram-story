@@ -34,6 +34,8 @@ The application is deployed using Vercel, a cloud platform for static sites and 
 
 You can access the deployed application at Instagram Story App.
 
+deployed link - https://instagram-story-xi.vercel.app/
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
