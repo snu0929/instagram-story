@@ -11,12 +11,12 @@
 - Fully responsive design, optimized for mobile devices.
 
 ## Setup Instructions
-# Prerequisites
+### Prerequisites
 
 - Node.js (>= 17.x)
 - npm (>= 6.x) or yarn (>= 1.x)
 
-# Installation
+## Installation
 
 1. Clone the repository:
 
@@ -26,24 +26,24 @@ cd instagram-story
 
 2. Install the dependencies:
 
-# Using npm:
+## Using npm:
 npm install
 
-# Using yarn:
+## Using yarn:
 yarn install
 
-# Running the Application
+## Running the Application
 To run the application in development mode:
 
-# Using npm:
+## Using npm:
 npm run dev
 
-# Using yarn:
+## Using yarn:
 yarn dev
 
 This will start the application and you can view it by navigating to http://localhost:3000 in your web browser.
 
-# Deployment
+## Deployment
 The application is deployed on Vercel. You can view the live version at:[ https://your-vercel-app-url.vercel.app](https://instagram-story-xi.vercel.app/)
 
 ## Design Choices
@@ -61,24 +61,24 @@ The application is deployed on Vercel. You can view the live version at:[ https:
 - Each story is an image. Other types of stories (e.g., videos) would require additional handling.
 
   
-## Detailed Explanation
+# Detailed Explanation
 
-# StoryCard Component
+## StoryCard Component
 This component displays a friend's profile picture and name. Clicking on it will open the friend's stories in the StoryViewer.
 
-# StoryCardList Component
+## StoryCardList Component
 This component renders a horizontal list of StoryCard components. It allows for horizontal scrolling to view more friends.
 
-# StoryViewer Component
+## StoryViewer Component
 This component displays the stories for a selected friend. It includes a progress bar for each story, indicating the remaining viewing time. The stories automatically transition to the next one after a set interval, but users can also navigate manually by clicking on the left or right side of the screen.
 
-# Page Component
+## Page Component
 This is the main page that integrates all components and renders the story card list and story viewer. It handles the selection of a friend and manages the display of the StoryViewer.
 
-# Deployment on Vercel
+## Deployment on Vercel
 The app is deployed on Vercel for easy and scalable hosting. Vercel provides automatic builds and deployments from the GitHub repository, ensuring that the latest changes are always live.
 
-# Conclusion
+## Conclusion
 This Instagram Stories feature web app provides a user-friendly and responsive way to view stories from friends, mimicking the Instagram experience. The use of React hooks ensures efficient state management and component lifecycle handling. The app is optimized for performance and scalability, making it suitable for future enhancements and real-world applications.****
 
 ## Learn More
