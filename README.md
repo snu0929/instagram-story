@@ -48,15 +48,15 @@ The application is deployed on Vercel. You can view the live version at:[ https:
 
 ## Design Choices
 
-# Component Structure
+## Component Structure
 - StoryCard: Represents a single friend's story card with a profile picture.
 - StoryCardList: Contains a horizontal list of StoryCard components.
 - StoryViewer: Displays the stories of a selected friend with navigation and progress indicators.
   
-# Performance and Scalability
+## Performance and Scalability
 - useEffect Optimization: The useEffect hook is used to manage the story transition interval, ensuring that the component re-renders only when necessary.
 - Responsive Design: The app is designed to be fully responsive, providing a seamless experience on mobile devices.
-# Assumptions
+## Assumptions
 - The stories data is static and hard-coded. In a real-world application, this data would be fetched from an API.
 - Each story is an image. Other types of stories (e.g., videos) would require additional handling.
 
